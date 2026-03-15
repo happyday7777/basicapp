@@ -12,6 +12,10 @@ import Traffic from './06/Traffic';
 // import MyRefAdd from './07/MyRefAdd';
 // import Gallery from './08/Gallery';
 // import RouteMain from './09/RouteMain';
+import RecoilMain from './10/RecoilMain';
+// import Rest from './11/Rest';
+import Rest from './12/Rest';
+import TodoList from './01/TodoList'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link } from "react-router-dom";
@@ -26,6 +30,9 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/lotto">Lotto</Link></li>
             <li><Link to="/traffic">Traffic</Link></li>
+            <li><Link to="/recoil">Recoil</Link></li>
+            <li><Link to="/rest">Rest</Link></li>
+            <li><Link to="/todoList">TodoList</Link></li>
           </ul>
           <p><Link to="/"><RiHomeHeartFill /></Link></p>
         </header>
@@ -35,6 +42,11 @@ function App() {
             <Route path="/" element={<MyClock />} />
             <Route path="/lotto" element={<Lotto />} />
             <Route path="/traffic" element={<Traffic />} />
+            <Route path="/traffic" element={<Traffic />} />
+            <Route path="/recoil" element={<RecoilMain />} />
+            <Route path="/rest" element={<Rest />} />
+            <Route path="/todoList" element={<TodoList />} />
+
           </Routes>
 
         </main>

@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "e162",
+      "title": "test11",
+      "author": "test111"
+    },
+    {
+      "id": "f820",
+      "title": "test2",
+      "author": "test22"
+    },
+    {
+      "id": "66f2",
+      "title": "test3",
+      "author": "test33"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a comment1.",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "This is a comment2.",
+      "postId": 1
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
